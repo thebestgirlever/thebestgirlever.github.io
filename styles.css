@@ -1,31 +1,28 @@
-.ibm-plex sans-regular {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-
 body {
-    width: 1440px;
+    width: 1200px;
     box-sizing: border-box;
     margin: auto;
+    font-family: "IBM Plex Sans", sans-serif;
+    background: linear-gradient(87.0deg, rgb(237, 223, 249) 1.10%, rgba(255, 255, 255, 0.44) 35.1%, rgb(253, 253, 254) 74.0%, rgb(243, 233, 249) 102.485%);
 }
 
 .cv {
     display: flex;
+    justify-content: space-between;
+    margin: 50px 40px;
 }
 
 .left-side {
-    width: 800px;
-    padding-left: 40px;
+    width: 650px;
 }
 
 .name {
     color: rgb(34, 34, 34);
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 65px;
     text-align: left;
+    margin: 0;
 }
 
 .profession {
@@ -33,7 +30,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 33px;
     text-align: left;
@@ -41,15 +38,15 @@ body {
 
 .def-text {
     color: rgb(34, 34, 34);
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 26px;
-    text-align: left;
+    text-align: justify;
 }
 
 .title {
     color: rgb(34, 34, 34);
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 33px;
     text-align: left;
@@ -60,48 +57,52 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0%;
     text-align: left;
-    padding-top: 5px;
+}
+
+.exp-block {
+    padding-bottom: 20px;
 }
 
 .blockTitle {
     color: rgb(153, 153, 153);
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 29px;
     text-align: left;
-    padding-top: 5px;
 }
 
 .line {
-    width: 800px;
+    width: 650px;
     border: 0.5px solid rgb(153, 153, 153);
 }
 
-.contacts{
+.contacts {
     display: flex;
     padding-top: 35px;
 }
+
 .contact {
     display: flex;
     padding-right: 25px;
 }
+
 .icon {
     padding-right: 5px;
 }
 
-.title{
+.title {
     padding-top: 30px;
 }
 
-.exp-block{
-    padding-top: 15px;
-}
 .right-side {
     width: 400px;
-    padding-left: 90px;
+}
+
+.img {
+    width: 200px;
 }
