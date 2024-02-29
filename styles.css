@@ -1,0 +1,107 @@
+.ibm-plex sans-regular {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body {
+    width: 1440px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.cv {
+    display: flex;
+}
+
+.left-side {
+    width: 800px;
+    padding-left: 40px;
+}
+
+.name {
+    color: rgb(34, 34, 34);
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 65px;
+    text-align: left;
+}
+
+.profession {
+    background: linear-gradient(135.00deg, rgb(255, 38, 178), rgb(133, 27, 217), rgb(63, 15, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 33px;
+    text-align: left;
+}
+
+.def-text {
+    color: rgb(34, 34, 34);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+
+.title {
+    color: rgb(34, 34, 34);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 33px;
+    text-align: left;
+}
+
+.date {
+    background: linear-gradient(135.00deg, rgb(255, 38, 178), rgb(133, 27, 217), rgb(63, 15, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 5px;
+}
+
+.blockTitle {
+    color: rgb(153, 153, 153);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: left;
+    padding-top: 5px;
+}
+
+.line {
+    width: 800px;
+    border: 0.5px solid rgb(153, 153, 153);
+}
+
+.contacts{
+    display: flex;
+    padding-top: 35px;
+}
+.contact {
+    display: flex;
+    padding-right: 25px;
+}
+.icon {
+    padding-right: 5px;
+}
+
+.title{
+    padding-top: 30px;
+}
+
+.exp-block{
+    padding-top: 15px;
+}
+.right-side {
+    width: 400px;
+    padding-left: 90px;
+}
