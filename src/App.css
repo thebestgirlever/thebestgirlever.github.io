@@ -1,38 +1,151 @@
-.App {
-  text-align: center;
+html,
+body {
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background: linear-gradient(to bottom, #243e7e, #0f172a);
+  font-family: "Montserrat", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.root {
+  max-width: 1440px; 
+  width: 100%;        
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;     
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.rigth {
+  display: flex;
+  position: sticky;
+  top: 80px;
+  width: 50%;
+  max-height: 80vh;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.r-title {
   display: flex;
   flex-direction: column;
+  padding-left: 100px;
+}
+
+.r-name {
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.r-prof {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  padding-top: 15px;
+}
+
+.r-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 150px;
+  gap: 10px;
+}
+
+.nav-block {
+  display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.nav-line {
+  width: 30px;
+  height: 2px;
+  background-color: #a3a1a1;
+}
+
+.nav-line-active {
+  width: 60px;
+  height: 2px;
+  background-color: #fff;
+}
+
+.nav-title {
+  font-size: 22px;
+  font-weight: 500;
+  color: #a3a1a1;
+  cursor: pointer;
+}
+
+.nav-title-active {
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+}
+
+.r-links {
+  display: flex;
+  justify-content: flex-start;
+  color: #fff;
+  gap: 20px;
+  padding-left: 100px;
+}
+
+.link {
+  width: 20px;
+  cursor: pointer;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  width: 50%;
+  justify-content: flex-start;
+  padding-right: 100px;
+}
+
+.l-about {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  padding-bottom: 15px;
+}
+
+.l-resume {
+  font-size: 18px;
+  font-weight: 500;
+  color: #a3a1a1;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+.l-resume:hover {
+  color: #fff;
+}
+
+.l-projects {
+  padding: 100px 0 80px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.copied-message {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #4CAF50;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  z-index: 1000;
+  opacity: 0.9;
 }
