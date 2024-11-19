@@ -6,7 +6,7 @@ body {
 body {
   background: linear-gradient(to bottom, #243e7e, #0f172a);
   font-family: "Montserrat", sans-serif;
-  min-width: 400px;
+  min-width: 300px;
 }
 
 .root {

@@ -1,5 +1,5 @@
 import './App.css';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import Project from './components/project';
 import GitHub from "./components/gh.svg";
@@ -45,6 +45,21 @@ function App() {
       document.querySelector('.l-projects').scrollIntoView({ behavior: 'smooth' });
     }
   };
+
+  useEffect(() => {
+    const resumeButton = document.querySelector('.l-resume');
+    if (resumeButton) {
+      resumeButton.addEventListener('click', function () {
+        var pdfUrl = 'images/cv.pdf';
+        window.open(pdfUrl, '_blank');
+      });
+    }
+    return () => {
+      if (resumeButton) {
+        resumeButton.removeEventListener('click', () => {});
+      }
+    };
+  }, []);
 
   return (
     <div className="root">
@@ -101,9 +116,9 @@ function App() {
           Поскольку на данный момент у меня нет коммерческого опыта, готова продемонстрировать свои навыки на примере pet-проектов. Эти проекты отражают мой уровень владения инструментами разработки, внимание к деталям и готовность к трудным задачам.
         </div>
 
-        {/* <div className="l-resume">
+        <div className="l-resume">
           Посмотреть полное резюме ⬈
-        </div> */}
+        </div>
 
         <div className='l-projects'>
           <Project />
