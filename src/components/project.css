@@ -17,8 +17,8 @@ a {
 
 
 .l-pic {
-    width: 150px;
-    height: 100px;
+    width: 225px;
+    height: 150px;
     border-radius: 5px;
 }
 
@@ -30,7 +30,7 @@ a {
 }
 
 .desc-title {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     color: #fff;
 }
@@ -56,4 +56,68 @@ a {
     background-color: #000000;
     border-radius: 10px;
     padding: 5px 10px;
+}
+
+@media (max-width: 1024px) {
+    .l-block {
+        margin-bottom: 40px;
+    }
+    
+    .l-pic {
+        width: 150px;
+        height: 100px;
+    }
+    
+    .desc-title {
+        font-size: 16px;
+    }
+    
+    .desc-text {
+        font-size: 12px;
+    }
+    
+    .desk-tags {
+        gap: 12px;
+    }
+    
+    .tag {
+        font-size: 10px;
+    }
+    
+}
+
+@media (max-width: 800px) {
+    .l-block {
+        padding: 5px 8px;
+        margin-bottom: 15px;
+    }
+
+    .l-pic {
+        width: 100px;
+        height: 75px;
+    }
+    
+    .l-description {
+        padding-left: 5px;
+    }
+    
+    .desc-title {
+        font-size: 12px;
+    }
+    
+    .desc-text {
+        padding-top: 3px;
+        font-size: 10px;
+    }
+    
+    .desk-tags {
+        gap: 8px;
+        padding-top: 8px;
+    }
+    
+    .tag {
+        font-size: 8px;
+        padding: 2px 5px;
+    }
+    
 }
