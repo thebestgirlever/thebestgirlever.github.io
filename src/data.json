@@ -26,6 +26,18 @@
             "url": "https://thebestgirlever.github.io/corn/"
         },
         {
+            "title": "ElcorePLC",
+            "description": "Семантическая верстка страницы новостного сайта с поддержкой пагинации. Дизайн адаптирован для комфортного просмотра на различных устройствах — от настольных компьютеров до мобильных телефонов. Постепенно сайт дополняется различным функционалом..",
+            "tags": [
+                "React",
+                "HTML",
+                "CSS",
+                "JS"
+            ],
+            "image": "images/elcore.png",
+            "url": "https://thebestgirlever.github.io/elcore/"
+        },
+        {
             "title": "Sentry Telegram Bot",
             "description": "Sentry Telegram Bot — это визитный сайт для телеграм-бота, который предоставляет пользователям возможность познакомиться с ботом через простой и интуитивно понятный интерфейс.",
             "tags": [
@@ -57,6 +69,19 @@
             ],
             "image": "images/gallery.png",
             "url": "https://thebestgirlever.github.io/gallery/"
+        },
+        {
+            "title": "Spa-salon",
+            "description": "Веб-сайт для просмотра сертификатов, с интеграцией данных через REST API. Пользователи могут выбирать интересующие карточки и переходить на страницу оформления заказа. После подтверждения заказа появляется уведомление о предстоящем звонке. Просмотр только при клонировании репки...",
+            "tags": [
+                "HTML",
+                "CSS",
+                "JS",
+                "React",
+                "REST API"
+            ],
+            "image": "images/spasalon.png",
+            "url": "https://github.com/thebestgirlever/spa-salon/tree/main"
         }
     ]
 }
